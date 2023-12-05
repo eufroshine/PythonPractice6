@@ -63,6 +63,7 @@ Prints a confirmation message.
                 print(f"Nama: {data['Nama']}, Nilai: {data['Nilai']}")
 
 This function checks if the daftar_nilai list is empty. If it is, it prints a message indicating that the list is empty.
+
 If the list is not empty, it iterates through the list and prints the names and grades of the students.
 
     # Fungsi hapus untuk menghapus data berdasarkan nama
@@ -76,7 +77,9 @@ If the list is not empty, it iterates through the list and prints the names and 
         print(f"Tidak ditemukan data mahasiswa dengan nama {nama}.")
 
 This function prompts the user to input the name of the student whose data will be deleted.
+
 It iterates through the daftar_nilai list, removes the entry with the specified name, and prints a confirmation message.
+
 If no match is found, it prints a message indicating that no data was found for the specified name.
 
     # Fungsi ubah untuk mengubah data berdasarkan nama
@@ -91,7 +94,9 @@ If no match is found, it prints a message indicating that no data was found for 
         print(f"Tidak ditemukan data mahasiswa dengan nama {nama}.")
 
 This function prompts the user to input the name of the student whose data will be modified and the new grade.
+
 It iterates through the daftar_nilai list, finds the entry with the specified name, updates the grade, and prints a confirmation message.
+
 If no match is found, it prints a message indicating that no data was found for the specified name.
 
     while True:
@@ -119,6 +124,9 @@ If no match is found, it prints a message indicating that no data was found for 
             print("Pilihan tidak valid. Masukkan pilihan antara 0 hingga 4.")
 
 The code enters a loop that continuously displays a menu of options to the user until the user chooses to exit (pilihan == '0').
+
 The menu includes options to add, modify, delete, or display student data.
+
 The user's choice is obtained using input() and processed using conditional statements.
+
 The loop continues until the user chooses to exit (pilihan == '0').
