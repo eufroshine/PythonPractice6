@@ -17,12 +17,18 @@
     d = lambda s: "".join(set(s)) if isinstance(s, str) else None
 
 In this revised version, the original functions are replaced with lambda functions. Each lambda function is assigned to a variable (a, b, c, and d) that has the same name as the original function. 
-The lambda function a takes a single argument, x, and returns x squared. 
-The lambda function b takes two arguments, x and y, and returns the square root of the sum of x squared and y squared. 
-The lambda function c takes any number of arguments, which are collected into a list called args. It returns the average of these arguments
-The lambda function d takes a single argument, s, which is a string. It returns a new string that contains only the unique characters of s. The unique characters are obtained by converting s to a set, which automatically removes duplicate characters.
 
-### Tugas Praktikum
+The lambda function a takes a single argument, x, and returns x squared. 
+
+The lambda function b takes two arguments, x and y, and returns the square root of the sum of x squared and y squared. 
+
+The lambda function c takes any number of arguments, which are collected into a list called args. It returns the average of these arguments
+
+The lambda function d takes a single argument, s, which is a string. It returns a new string that contains only the unique characters of s.
+
+The unique characters are obtained by converting s to a set, which automatically removes duplicate characters.
+
+## Tugas Praktikum
 
     # Inisialisasi daftar nilai mahasiswa
     daftar_nilai = []
@@ -38,9 +44,13 @@ A list named daftar_nilai is initialized to store information about students, in
         print(f"Data mahasiswa {nama} dengan nilai {nilai} telah ditambahkan.")
 
 This function prompts the user to input the student's name and grade.
+
 Converts the grade input to a float.
+
 Creates a dictionary (data_mahasiswa) with the student's name and grade.
+
 Appends the dictionary to the daftar_nilai list.
+
 Prints a confirmation message.
 
     # Fungsi tampilkan untuk menampilkan data
